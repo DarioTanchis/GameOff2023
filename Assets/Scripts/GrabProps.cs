@@ -10,26 +10,42 @@ public class GrabProps : MonoBehaviour
     GameObject grabbed;
     Rigidbody grabbedRigidbody;
     [SerializeField] float throwForce = 20;
+    bool hintEnabled;
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Interact") && Physics.Raycast(camera.position, camera.forward, out RaycastHit hit, raycastDistance) && hit.collider.CompareTag("Prop"))
+        if (Physics.Raycast(camera.position, camera.forward, out RaycastHit hit, raycastDistance) && hit.collider.CompareTag("Prop"))
         {
-            Debug.Log("Grabbed prop");
+            UI_Controller.instance.EnableInteractionHint(true);
+            UI_Controller.instance.SetInteractionHintPosition(hit.point);
+            hintEnabled = true;
 
-            if (grabbed)
+            if (Input.GetButtonDown("Interact"))
             {
-                grabbed.transform.parent = null;
+                Debug.Log("Grabbed prop");
+
+                if (grabbed)
+                {
+                    grabbed.transform.parent = null;
+                    grabbedRigidbody.isKinematic = false;
+                    grabbedRigidbody.useGravity = true;
+                    grabbedRigidbody.AddForce(transform.right * throwForce / 5);
+                }
+
+                grabbed = hit.collider.gameObject;
+                grabbed.transform.parent = grabPosition;
+                grabbed.transform.localPosition = Vector3.zero;
+
+                grabbedRigidbody = grabbed.GetComponent<Rigidbody>();
+                grabbedRigidbody.isKinematic = true;
+                grabbedRigidbody.useGravity = false;
             }
-
-            grabbed = hit.collider.gameObject;
-            grabbed.transform.parent = grabPosition;
-            grabbed.transform.localPosition = Vector3.zero;
-
-            grabbedRigidbody = grabbed.GetComponent<Rigidbody>();
-            grabbedRigidbody.isKinematic = true;
-            grabbedRigidbody.useGravity = false;
+        }
+        else if(hintEnabled)
+        {
+            UI_Controller.instance.EnableInteractionHint(false);
+            hintEnabled = false;
         }
 
         if (Input.GetButtonDown("Fire1") && grabbed)
