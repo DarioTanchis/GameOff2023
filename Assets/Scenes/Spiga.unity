@@ -1105,7 +1105,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -9053,7 +9053,7 @@ Transform:
   m_GameObject: {fileID: 853182319}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.778, y: -0.347, z: -0.5810001}
+  m_LocalPosition: {x: -0.778, y: -0.34, z: -0.5810001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12809,7 +12809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5576268587323649857, guid: 7734db661ffff4dc9ab2fb743c270b77, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.52
+      value: -1.518
       objectReference: {fileID: 0}
     - target: {fileID: 5576268587323649857, guid: 7734db661ffff4dc9ab2fb743c270b77, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12977,7 +12977,7 @@ Transform:
   m_GameObject: {fileID: 1244940805}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.09, y: 1.464, z: -3.329}
+  m_LocalPosition: {x: 1.15, y: 1.464, z: -3.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13097,6 +13097,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835184118292849591, guid: ace913233e4549448a8e7cf0eac95f78, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6300540789573665886, guid: ace913233e4549448a8e7cf0eac95f78, type: 3}
+      propertyPath: m_Convex
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6607182690265921805, guid: ace913233e4549448a8e7cf0eac95f78, type: 3}
