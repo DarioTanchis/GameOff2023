@@ -15,6 +15,6 @@ public class PlayerInteract : MonoBehaviour
             if (hit.collider.GetComponent<Interactable>()){
                 hit.collider.GetComponent<Interactable>().Interact(GetComponent<PlayerController>());
             }
-        } 
+        }
     }
 }
