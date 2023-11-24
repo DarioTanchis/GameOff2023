@@ -7,6 +7,9 @@ public class UI_Controller : MonoBehaviour
     [SerializeField] RectTransform interactionHint;
     [SerializeField] Vector2 interactionHintOffset;
     public static UI_Controller instance;
+    [SerializeField] TMPro.TextMeshProUGUI dialogueText;
+    List<DialogueObject> dialogues = new List<DialogueObject>();
+    bool dialogueCoroutineRunning = false;
 
     private void Awake()
     {
@@ -36,4 +39,46 @@ public class UI_Controller : MonoBehaviour
     {
         interactionHint.gameObject.SetActive(enable);
     }
+
+    public void AddDialogue(DialogueObject dialogue)
+    {
+        dialogues.Add(dialogue);
+
+        if (!dialogueCoroutineRunning)
+        {
+            StartCoroutine(DisplayDialogues());
+        }
+    }
+
+    IEnumerator DisplayDialogues()
+    {
+        dialogueCoroutineRunning = true;
+
+        foreach(DialogueObject d in dialogues)
+        {
+            while(Time.timeScale == 0)
+            {
+                yield return null;
+            }
+
+            dialogueText.text = d.text;
+
+            float endDialogueTime = Time.time;
+            while(Time.time - endDialogueTime < d.timeToNextLine)
+            {
+                yield return null;
+            }
+        }
+
+        dialogues.Clear();
+
+        dialogueCoroutineRunning = false;
+    }
+}
+
+
+public class DialogueObject
+{
+    public string text;
+    public float timeToNextLine;
 }

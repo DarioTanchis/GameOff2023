@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7129353460126486775}
   - component: {fileID: 4901258392810967671}
   - component: {fileID: 7450771483364910036}
+  - component: {fileID: -6626153639899988466}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -173,6 +174,20 @@ MonoBehaviour:
   raycastDistance: 5
   grabPosition: {fileID: 4680806776764462273}
   throwForce: 200
+--- !u!114 &-6626153639899988466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169938240431091388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcabd760980572749a0a4659778c9826, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera: {fileID: 7671840461203396755}
+  raycastDistance: 3
 --- !u!1 &1639023481585291735
 GameObject:
   m_ObjectHideFlags: 0

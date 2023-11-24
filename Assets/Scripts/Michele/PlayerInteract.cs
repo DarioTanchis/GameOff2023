@@ -10,10 +10,14 @@ public class PlayerInteract : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Interact") && Physics.Raycast(camera.position, camera.forward, out RaycastHit hit, raycastDistance))
+        UI_Controller.instance?.EnableInteractionHint(false);
+        if (Physics.Raycast(camera.position, camera.forward, out RaycastHit hit, raycastDistance) && hit.collider.TryGetComponent(out Interactable interactable))
         {
-            if (hit.collider.GetComponent<Interactable>()){
-                hit.collider.GetComponent<Interactable>().Interact(GetComponent<PlayerController>());
+            UI_Controller.instance?.EnableInteractionHint(true);
+            UI_Controller.instance?.SetInteractionHintPosition(hit.point);
+
+            if (Input.GetButtonDown("Interact")){
+                interactable.Interact(GetComponent<PlayerController>());
             }
         }
     }

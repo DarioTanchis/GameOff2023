@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DoorInteractable : Interactable
 {
+    [SerializeField] Vector3 rotationAxis = Vector3.up;
     private bool open = false;
     float closedRotation;
     float openRotation;
@@ -29,7 +30,7 @@ public class DoorInteractable : Interactable
             elapsedTime -= Time.deltaTime;  
         }
         float percent = elapsedTime / openingTime;
-            transform.localEulerAngles = Vector3.Lerp(new Vector3(0, 0, closedRotation), new Vector3(0, 0, openRotation), percent);
+            transform.localEulerAngles = Vector3.Lerp(rotationAxis.normalized * closedRotation, rotationAxis.normalized * openRotation, percent);
     }
 
     // Does something, called when "interact" is pressed
