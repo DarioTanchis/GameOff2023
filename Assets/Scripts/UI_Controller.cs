@@ -23,6 +23,7 @@ public class UI_Controller : MonoBehaviour
         }
 
         interactionHint.gameObject.SetActive(false);
+        dialogueText.text = "";
     }
 
     public void SetInteractionHintPosition(Vector3 objectWorldPosition)
@@ -50,12 +51,24 @@ public class UI_Controller : MonoBehaviour
         }
     }
 
+    public void AddDialogues(DialogueObject []dialogues)
+    {
+        this.dialogues.AddRange(dialogues);
+
+        if (!dialogueCoroutineRunning)
+        {
+            StartCoroutine(DisplayDialogues());
+        }
+    }
+
     IEnumerator DisplayDialogues()
     {
         dialogueCoroutineRunning = true;
 
         foreach(DialogueObject d in dialogues)
         {
+            Debug.Log(d.text);
+
             while(Time.timeScale == 0)
             {
                 yield return null;
@@ -70,13 +83,14 @@ public class UI_Controller : MonoBehaviour
             }
         }
 
+        dialogueText.text = "";
         dialogues.Clear();
 
         dialogueCoroutineRunning = false;
     }
 }
 
-
+[System.Serializable]
 public class DialogueObject
 {
     public string text;
