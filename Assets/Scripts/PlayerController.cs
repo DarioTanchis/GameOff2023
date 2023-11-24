@@ -23,8 +23,8 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 movement = ((new Vector3(transform.forward.x, 0, transform.forward.z) * Input.GetAxis("Vertical")).normalized + (transform.right * Input.GetAxis("Horizontal")).normalized).normalized * speed;
-
+        Vector3 movement = ((new Vector3(transform.forward.x, 0, transform.forward.z).normalized * Input.GetAxis("Vertical")) + (transform.right * Input.GetAxis("Horizontal")).normalized).normalized * speed;
+        
         cc.Move((movement + Vector3.down * gravity) * Time.smoothDeltaTime);
 
         mouseRotation.x += Input.GetAxis("Mouse X") * Time.smoothDeltaTime * mouseSpeed;
