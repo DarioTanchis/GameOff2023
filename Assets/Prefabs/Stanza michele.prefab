@@ -2165,6 +2165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 1857220619740904143}
+  locked: 1
 --- !u!1 &1857220619740708209 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 118222, guid: 65d0f065a3e2ad547b9cc3844a9937d7, type: 3}
@@ -2184,6 +2185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 1857220619740789933}
+  locked: 0
 --- !u!1 &1857220619740789933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 199698, guid: 65d0f065a3e2ad547b9cc3844a9937d7, type: 3}
@@ -2706,6 +2708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 5690673442783087503}
+  locked: 0
 --- !u!1 &5690673442783189431 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 106026, guid: 65d0f065a3e2ad547b9cc3844a9937d7, type: 3}
@@ -2725,6 +2728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 5690673442782973421}
+  locked: 0
 --- !u!1001 &6102708392819482053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3130,6 +3134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 6442861698525403173}
+  locked: 0
 --- !u!1 &6442861698525403173 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 153760, guid: 5782841bb7f4b7541a289e9ee9a6ead1, type: 3}
@@ -3175,6 +3180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 6442861698525411179}
+  locked: 0
 --- !u!1 &6442861698525411179 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 161774, guid: 5782841bb7f4b7541a289e9ee9a6ead1, type: 3}

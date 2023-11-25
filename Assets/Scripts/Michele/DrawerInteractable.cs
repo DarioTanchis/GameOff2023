@@ -6,6 +6,7 @@ public class DrawerInteractable : Interactable
 {
     [SerializeField] Vector3 openPosition;
     [SerializeField] GameObject handle = null;
+    [SerializeField] bool locked = false;
     Vector3 closedPosition;
     Vector3 handlePosition;
     private bool open = false;
@@ -15,7 +16,9 @@ public class DrawerInteractable : Interactable
     void Start(){
         closedPosition = transform.position;
         openPosition = transform.TransformPoint(openPosition);
-        handlePosition = handle.transform.position;
+        if (handle != null){
+            handlePosition = handle.transform.position;
+        }
     }
 
     void Update(){
@@ -27,19 +30,26 @@ public class DrawerInteractable : Interactable
         }
         float percentComplete = elapsedTime / openingTime;
         transform.position = Vector3.Lerp(closedPosition, openPosition, percentComplete);
-        handle.transform.position = Vector3.Lerp(handlePosition, openPosition, percentComplete);
+        if (handle != null){
+            handle.transform.position = Vector3.Lerp(handlePosition, openPosition, percentComplete);
+        }
     }
 
     // Does something, called when "interact" is pressed
-    public override void Interact(PlayerController player){
-        open = !open;
-        if (open)
-        {
-            elapsedTime = 0;
+    public override void Interact(PlayerInteract player){
+        if (locked && player.getHasKey()){
+            locked = false;
+            player.setHasKey(false);
         }
-        else
-        {
-            elapsedTime = openingTime;        
-        }     
+        if (!locked){
+            open = !open;
+            if (open){
+                elapsedTime = 0;
+            }
+            else{
+                elapsedTime = openingTime;        
+            }     
+        }
+        base.Interact(player);
     }
 }

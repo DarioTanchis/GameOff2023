@@ -5,7 +5,7 @@ using UnityEngine;
 abstract public class Interactable : MonoBehaviour
 {
     // Does something, called when "interact" is pressed
-    public virtual void Interact(PlayerController player){
+    public virtual void Interact(PlayerInteract player){
 
     }
 }
