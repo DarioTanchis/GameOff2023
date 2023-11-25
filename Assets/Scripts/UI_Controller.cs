@@ -67,8 +67,6 @@ public class UI_Controller : MonoBehaviour
 
         foreach(DialogueObject d in dialogues)
         {
-            Debug.Log(d.text);
-
             while(Time.timeScale == 0)
             {
                 yield return null;
