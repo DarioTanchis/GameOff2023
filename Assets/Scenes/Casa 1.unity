@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -847,6 +847,22 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &810894315 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3930488496924480865, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+  m_PrefabInstance: {fileID: 7755196341351929761}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &810894316 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 548259278622965170, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+  m_PrefabInstance: {fileID: 7755196341351929761}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810894315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 608122e09884d594499e071cd6eed3d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!43 &848951517
 Mesh:
   m_ObjectHideFlags: 0
@@ -1837,6 +1853,71 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1598016699
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[0]
+      value: Spiga gay
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[1]
+      value: Ahahahahahah
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295137304856951013, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_Name
+      value: Newspaper
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.268
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -14.535
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
 --- !u!43 &1628323467
 Mesh:
   m_ObjectHideFlags: 0
@@ -2332,6 +2413,75 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &1723390282
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[0]
+      value: Oh ma te li fai i cazzi tuoi
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295137304856951013, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_Name
+      value: Newspaper (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.68808
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.345
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.845
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6916786
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6916786
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.14690366
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.14690366
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -23.981
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
 --- !u!43 &1854170938
 Mesh:
   m_ObjectHideFlags: 0
@@ -2497,6 +2647,79 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &2002483868
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[0]
+      value: Chiara ferragni si suicida
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[1]
+      value: "Fedez \xE8 gay"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[2]
+      value: Stavano assieme solo per i soldi
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295137304856951013, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_Name
+      value: Newspaper (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.722
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.035
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5997344
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.59973454
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.37459126
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.37459126
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -63.977
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
 --- !u!43 &2016761959
 Mesh:
   m_ObjectHideFlags: 0
@@ -2710,6 +2933,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1646256938}
+    - target: {fileID: 1880271670482253777, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 810894315}
+    - target: {fileID: 1880271670482253777, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 810894316}
     - target: {fileID: 1976946177874056110, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2718,6 +2949,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 848951517}
+    - target: {fileID: 2016879484697200547, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 810894315}
+    - target: {fileID: 2016879484697200547, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 810894316}
     - target: {fileID: 2041361148358772308, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2726,6 +2965,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1640111222}
+    - target: {fileID: 2725646699055091045, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 810894315}
+    - target: {fileID: 2725646699055091045, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 810894316}
     - target: {fileID: 2774222587249583022, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2738,6 +2985,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 848951517}
+    - target: {fileID: 3023101844208591049, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 810894315}
+    - target: {fileID: 3023101844208591049, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 810894316}
     - target: {fileID: 3402333490363091606, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2746,6 +3001,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 902124626}
+    - target: {fileID: 3727941141991777525, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 810894315}
+    - target: {fileID: 3727941141991777525, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 810894316}
     - target: {fileID: 3800705933733270785, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.14496
@@ -2806,6 +3069,22 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 848951517}
+    - target: {fileID: 4495936927021024149, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 810894315}
+    - target: {fileID: 4495936927021024149, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 810894316}
+    - target: {fileID: 4537678779231072591, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 810894315}
+    - target: {fileID: 4537678779231072591, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 810894316}
     - target: {fileID: 4566235783384171637, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2818,6 +3097,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1367038045}
+    - target: {fileID: 5543334576937939289, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 810894315}
+    - target: {fileID: 5543334576937939289, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 810894316}
     - target: {fileID: 5709276958837242826, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2878,6 +3165,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1367038045}
+    - target: {fileID: 8887085820594439443, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 810894315}
+    - target: {fileID: 8887085820594439443, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 810894316}
     - target: {fileID: 8928259925898208678, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2890,6 +3185,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 874917575}
+    - target: {fileID: 9136482121070303211, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 810894315}
+    - target: {fileID: 9136482121070303211, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 810894316}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2900,3 +3203,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 7755196341351929761}
+  - {fileID: 1598016699}
+  - {fileID: 1723390282}
+  - {fileID: 2002483868}
