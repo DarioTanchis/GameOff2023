@@ -9,6 +9,7 @@ public class Flicker_TV : MonoBehaviour
     [SerializeField] float flickerDuration = .1f;
     bool turnedOn = false;
     float lastSwitchTime;
+    [SerializeField] Color flickerColor = Color.white;
     [SerializeField] Light light;
 
     // Start is called before the first frame update
@@ -28,7 +29,8 @@ public class Flicker_TV : MonoBehaviour
             lastSwitchTime = Time.time;
             turnedOn = !turnedOn;
             light.enabled = turnedOn;
-            mat.SetColor("_EmissionColor", turnedOn ? Color.white : Color.black);
+            mat.SetColor("_EmissionColor", turnedOn ? flickerColor : Color.black);
+            light.color = flickerColor;
         } 
 
     }
