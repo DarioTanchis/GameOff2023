@@ -15,6 +15,8 @@ public class PlayOnImpact : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        if (collision.collider.CompareTag("Player"))
+            return;
         source.pitch = 1 + Random.Range(-pitchVariance, pitchVariance);
         source.Play();
     }
