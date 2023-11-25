@@ -2018,6 +2018,22 @@ PrefabInstance:
       propertyPath: phrases.Array.data[1]
       value: Ahahahahahah
       objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[0].text
+      value: Spiga gay
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[1].text
+      value: dasdasdda
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[0].timeToNextLine
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[1].timeToNextLine
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6295137304856951013, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
       propertyPath: m_Name
       value: Newspaper
@@ -3050,10 +3066,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1303563651}
-    - target: {fileID: 644643582668451178, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: m_VersionIndex
-      value: 91
-      objectReference: {fileID: 0}
     - target: {fileID: 731602716161314591, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
