@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -6626153639899988466}
   - component: {fileID: 10064296275517316}
   - component: {fileID: 1367654186317700143}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 7671840461203396755}
-  raycastDistance: 5
+  raycastDistance: 3
   grabPosition: {fileID: 4680806776764462273}
   throwForce: 200
 --- !u!114 &-6626153639899988466
@@ -297,7 +297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4680806776764462273}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Grab position
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +333,7 @@ GameObject:
   - component: {fileID: 7433433643379186778}
   - component: {fileID: 4430955930716444014}
   - component: {fileID: 7540227913268196684}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
