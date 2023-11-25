@@ -3146,10 +3146,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1640111222}
-    - target: {fileID: 2287521561294833730, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: raycastDistance
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 2323233964467179936, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3230,10 +3226,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 677553728}
-    - target: {fileID: 4422338389273332446, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: m_VersionIndex
-      value: 7945
-      objectReference: {fileID: 0}
     - target: {fileID: 4428096024229336094, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
