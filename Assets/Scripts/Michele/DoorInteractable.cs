@@ -9,7 +9,6 @@ public class DoorInteractable : Interactable
     float closedRotation;
     float openRotation;
     public bool inverted = false;
-    float speed = 5;
     int rot = 90;
     float elapsedTime = 0f;
     float openingTime = 0.5f;
@@ -34,7 +33,7 @@ public class DoorInteractable : Interactable
     }
 
     // Does something, called when "interact" is pressed
-    public override void Interact(PlayerController player){
+    public override void Interact(PlayerInteract player){
         open = !open;
         if (open)
         {
@@ -43,6 +42,7 @@ public class DoorInteractable : Interactable
         else
         {
             elapsedTime = openingTime;        
-        }     
+        }  
+        base.Interact(player);
     }
 }

@@ -6,6 +6,7 @@ public class PlayerInteract : MonoBehaviour
 {
     [SerializeField] Transform camera;
     [SerializeField] float raycastDistance = 3f;
+    bool hasKey = false;
 
     // Update is called once per frame
     void Update()
@@ -17,8 +18,18 @@ public class PlayerInteract : MonoBehaviour
             UI_Controller.instance?.SetInteractionHintPosition(hit.point);
 
             if (Input.GetButtonDown("Interact")){
-                interactable.Interact(GetComponent<PlayerController>());
+                interactable.Interact(this);
             }
         }
+    }
+
+    public bool getHasKey()
+    {
+        return hasKey;
+    }
+
+    public void setHasKey(bool v)
+    {
+        hasKey = v;
     }
 }
