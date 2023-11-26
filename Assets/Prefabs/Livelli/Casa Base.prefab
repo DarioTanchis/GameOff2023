@@ -5026,14 +5026,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Prop
       objectReference: {fileID: 0}
-    - target: {fileID: 2547288714175797655, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
-      propertyPath: furnitureTextures
+    - target: {fileID: 1610095936952413638, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2547288714175797655, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 2834613450795799219, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -5070,6 +5066,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Prop
       objectReference: {fileID: 0}
+    - target: {fileID: 3472222796714600313, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 3608356161183078757, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
       propertyPath: m_VersionIndex
       value: 6390
@@ -5258,6 +5258,10 @@ PrefabInstance:
       propertyPath: m_Shadows.m_Strength
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4387858314950540534, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f7bbd21b1298745458209aed31d9c489, type: 2}
     - target: {fileID: 4397744623580187214, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
       propertyPath: m_IsActive
       value: 0
