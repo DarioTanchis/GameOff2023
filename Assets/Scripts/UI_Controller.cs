@@ -9,6 +9,8 @@ public class UI_Controller : MonoBehaviour
     public static UI_Controller instance;
     [SerializeField] TMPro.TextMeshProUGUI dialogueText;
     bool dialogueCoroutineRunning = false;
+    bool pause;
+    [SerializeField] GameObject pauseMenu;
 
     private void Awake()
     {
@@ -23,6 +25,18 @@ public class UI_Controller : MonoBehaviour
 
         interactionHint.gameObject.SetActive(false);
         dialogueText.text = "";
+
+        pauseMenu.SetActive(pause);
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Cancel"))
+        {
+            pause = !pause;
+            Time.timeScale = pause ? 0 : 1;
+            pauseMenu.SetActive(pause);
+        }
     }
 
     public void SetInteractionHintPosition(Vector3 objectWorldPosition)
