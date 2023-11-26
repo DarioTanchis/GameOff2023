@@ -11,27 +11,49 @@ public class Flicker_TV : MonoBehaviour
     float lastSwitchTime;
     [SerializeField] Color flickerColor = Color.white;
     [SerializeField] Light light;
+    [SerializeField] float flickerInterval = 4;
+    [SerializeField] float flickerLength = 1;
+    float flickerStart, lastFlickerEnd;
+    bool isFlickering;
 
     // Start is called before the first frame update
     void Start()
     {
         meshRenderer = GetComponent<MeshRenderer>();
         mat = meshRenderer.material;
-        mat.SetColor("_EmissionColor", Color.black);
-        light.enabled = false;
+        mat.SetColor("_EmissionColor", flickerColor);
+        light.enabled = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Time.time - lastSwitchTime > flickerDuration)
+        if(!isFlickering && Time.time - lastFlickerEnd > flickerInterval)
         {
-            lastSwitchTime = Time.time;
-            turnedOn = !turnedOn;
-            light.enabled = turnedOn;
-            mat.SetColor("_EmissionColor", turnedOn ? flickerColor : Color.black);
-            light.color = flickerColor;
-        } 
+            isFlickering = true;
+            flickerStart = Time.time;
+        }
+
+        if(isFlickering && Time.time - flickerStart < flickerLength)
+        {
+            if (Time.time - lastSwitchTime > flickerDuration)
+            {
+                lastSwitchTime = Time.time;
+                turnedOn = !turnedOn;
+                light.enabled = turnedOn;
+                mat.SetColor("_EmissionColor", turnedOn ? flickerColor : Color.black);
+                light.color = flickerColor;
+                Debug.Log("Flickering");
+            }
+        }
+        else if (isFlickering)
+        {
+            mat.SetColor("_EmissionColor", flickerColor);
+            light.enabled = true;
+
+            isFlickering = false;
+            lastFlickerEnd = Time.time;
+        }
 
     }
 }
