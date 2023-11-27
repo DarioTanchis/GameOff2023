@@ -35,6 +35,7 @@ public class GrabProps : MonoBehaviour
 
                 grabbed = hit.collider.gameObject;
                 grabbed.transform.parent = grabPosition;
+                grabbed.transform.localRotation = Quaternion.identity;
                 grabbed.transform.localPosition = Vector3.zero;
 
                 grabbedRigidbody = grabbed.GetComponent<Rigidbody>();

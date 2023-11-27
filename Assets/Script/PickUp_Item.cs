@@ -32,7 +32,6 @@ public class PickUp_Item : MonoBehaviour
             if (Input.GetButtonDown("PickUp Item")) {
                 prendimi.prediOggetto(objectTransform.gameObject, playerItem.gameObject);
                 interactionHint.gameObject.SetActive(false);
-
             }
         }
     }

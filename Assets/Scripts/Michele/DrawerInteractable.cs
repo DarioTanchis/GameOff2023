@@ -37,7 +37,15 @@ public class DrawerInteractable : Interactable
 
     // Does something, called when "interact" is pressed
     public override void Interact(PlayerInteract player){
-        if (locked && player.getHasKey()){
+        if (locked && !player.getHasKey()){
+            List<DialogueObject> dialogues = new List<DialogueObject>();
+            DialogueObject d = new DialogueObject();
+            d.text = "Locked";
+            d.timeToNextLine = 2;
+            dialogues.Add(d);
+            UI_Controller.instance.AddDialogues(dialogues.ToArray());
+        }
+        else if (locked && player.getHasKey()){
             locked = false;
             player.setHasKey(false);
         }

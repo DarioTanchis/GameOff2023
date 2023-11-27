@@ -23,6 +23,5 @@ public class Gestione_Item : MonoBehaviour
     public void prediOggetto(GameObject item, GameObject playerItem) {
         item.gameObject.SetActive(false);
         playerItem.gameObject.SetActive(true);
-
     }
 }
