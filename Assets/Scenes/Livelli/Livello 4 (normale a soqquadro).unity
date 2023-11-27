@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748171, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -815,6 +815,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6987462272593809911, guid: 9b213fa4c0f4541099024ac0cc6e36e5, type: 3}
   m_PrefabInstance: {fileID: 947307193}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &871770271
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[0].text
+      value: The research confirms that the crime was committed by no beast either
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[1].text
+      value: Anxiety is plaguing the entire crew
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[2].text
+      value: Whatever killed the parents, might be going for the child too
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[0].timeToNextLine
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[1].timeToNextLine
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[2].timeToNextLine
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295137304856951013, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_Name
+      value: Newspaper
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.269
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.774
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.57712555
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.57712555
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.4085659
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.4085659
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 70.592
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
 --- !u!43 &905834133
 Mesh:
   m_ObjectHideFlags: 0
@@ -4619,6 +4704,22 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1402484142}
+    - target: {fileID: 8536212995064105185, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8536212996198311104, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8536212996893556461, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8536212996973216499, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8543979177300669173, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4790,3 +4891,4 @@ SceneRoots:
   - {fileID: 2125304333}
   - {fileID: 2081858089}
   - {fileID: 1933086336}
+  - {fileID: 871770271}

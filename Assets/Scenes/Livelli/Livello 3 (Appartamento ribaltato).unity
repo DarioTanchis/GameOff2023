@@ -4328,6 +4328,91 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1360271446}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2064445952
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[0].text
+      value: Further investigations reveald that the victims had a family
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[1].text
+      value: The two have a 6 ears old son, police is now looking for him
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[2].text
+      value: 'However the location of their house is still unknown  '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[0].timeToNextLine
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[1].timeToNextLine
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5906935675781095475, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: phrases.Array.data[2].timeToNextLine
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295137304856951013, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_Name
+      value: Newspaper
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.709
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.114
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.47529915
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.4752993
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5235366
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5235368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6635775505372979807, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -95.53
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 714226ab5520b074f9a46e6675fdd687, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -4337,3 +4422,4 @@ SceneRoots:
   - {fileID: 2048509974}
   - {fileID: 1360271446}
   - {fileID: 1457439308}
+  - {fileID: 2064445952}
