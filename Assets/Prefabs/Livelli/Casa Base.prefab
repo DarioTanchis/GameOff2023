@@ -6650,7 +6650,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 10856212, guid: 7c26144cd2b34a446be62fbbe9216cec, type: 3}
       propertyPath: m_Range
-      value: 1.44
+      value: 2.45
       objectReference: {fileID: 0}
     - target: {fileID: 10856212, guid: 7c26144cd2b34a446be62fbbe9216cec, type: 3}
       propertyPath: m_Color.b
@@ -6670,7 +6670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 10856212, guid: 7c26144cd2b34a446be62fbbe9216cec, type: 3}
       propertyPath: m_Intensity
-      value: 5.82
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 10856212, guid: 7c26144cd2b34a446be62fbbe9216cec, type: 3}
       propertyPath: m_Lightmapping
@@ -10027,7 +10027,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3161671151589344225, guid: 4334344747ed9dc4299b38cd3b93d3cb, type: 3}
       propertyPath: m_Range
-      value: 3.68
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3161671151589344225, guid: 4334344747ed9dc4299b38cd3b93d3cb, type: 3}
+      propertyPath: m_Intensity
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3161671151599960383, guid: 4334344747ed9dc4299b38cd3b93d3cb, type: 3}
       propertyPath: m_LocalPosition.y
