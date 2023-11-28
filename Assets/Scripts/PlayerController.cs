@@ -13,11 +13,29 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float minMouseRot = -50;
     Vector2 mouseRotation;
 
+    public static PlayerController instance;
+
+    private void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(this);
+        }
+
+        DontDestroyOnLoad(gameObject);
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame

@@ -21,6 +21,7 @@ public class UI_Controller : MonoBehaviour
             Destroy(this);
         }
 
+        DontDestroyOnLoad(gameObject);
         interactionHint.gameObject.SetActive(false);
         dialogueText.text = "";
     }
