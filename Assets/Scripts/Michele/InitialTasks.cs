@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class InitialTasks : MonoBehaviour
 {
+    [SerializeField] TextMeshProUGUI textMesh;
     [SerializeField] List<GameObject> toGrab;
     UI_Controller ui;
-    int task = 0;
+    int taskIndex = 0;
     
     // Start is called before the first frame update
     void Start()
@@ -49,8 +51,8 @@ public class InitialTasks : MonoBehaviour
     }
 
     void Advance(){
-        task++;
-        switch (task){
+        taskIndex++;
+        switch (taskIndex){
             case 1: Task1();
             break;
             case 2: Task2();
@@ -59,12 +61,14 @@ public class InitialTasks : MonoBehaviour
     }
 
     void Task1(){
-        string task1 = "Mom: withdraw the dishes from the table";
-        setDialogue(task1, 5);
+        string task = "Mom: withdraw the dishes from the table";
+        textMesh.text = "Withdraw the dishes";
+        setDialogue(task, 5);
     }
 
     void Task2(){
-        string task1 = "Mom: Pull out the chicken from the fridge";
-        setDialogue(task1, 5);
+        string task = "Mom: Pull out the chicken from the fridge";
+        textMesh.text = "Take the chicken from the fridge";
+        setDialogue(task, 5);
     }
 }
