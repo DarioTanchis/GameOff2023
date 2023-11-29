@@ -23,8 +23,6 @@ public class GrabProps : MonoBehaviour
 
             if (Input.GetButtonDown("Interact"))
             {
-                Debug.Log("Grabbed prop");
-
                 if (grabbed)
                 {
                     grabbed.transform.parent = null;
@@ -41,6 +39,14 @@ public class GrabProps : MonoBehaviour
                 grabbedRigidbody = grabbed.GetComponent<Rigidbody>();
                 grabbedRigidbody.isKinematic = true;
                 grabbedRigidbody.useGravity = false;
+
+                Debug.Log("Grabbed " + grabbed);
+
+                if(GameObject.Find("GameManager")){
+                    if(GameObject.Find("GameManager").TryGetComponent<InitialTasks>(out InitialTasks it)){
+                        it.ItemGrabbed(grabbed);
+                    }
+                }
             }
         }
         else if(hintEnabled)
