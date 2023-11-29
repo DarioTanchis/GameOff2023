@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DoorInteractable : Interactable
 {
+    
+    [SerializeField] AudioSource suonoPorta;
     [SerializeField] Vector3 rotationAxis = Vector3.up;
     private bool open = false;
     float closedRotation;
@@ -32,9 +34,16 @@ public class DoorInteractable : Interactable
             transform.localEulerAngles = Vector3.Lerp(rotationAxis.normalized * closedRotation, rotationAxis.normalized * openRotation, percent);
     }
 
+
+
     // Does something, called when "interact" is pressed
     public override void Interact(PlayerInteract player){
         open = !open;
+        if (TryGetComponent<AudioSource>(out AudioSource suonoPorta)) //Controlla se ha l'audio :)
+        {
+            suonoPorta.Play(); //suono apertura porta
+        }
+        
         if (open)
         {
             elapsedTime = 0;

@@ -3571,6 +3571,10 @@ PrefabInstance:
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
       objectReference: {fileID: 1704591854}
+    - target: {fileID: 3758056832483248314, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 297a0316038bbe04a9d3c98c19d901be, type: 3}
     - target: {fileID: 3800705933733270785, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.14496
@@ -3671,10 +3675,34 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1646256938}
+    - target: {fileID: 5369531079282262210, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.141
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369531079292240084, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 1704591853}
+    - target: {fileID: 5369531079292240084, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 1704591854}
+    - target: {fileID: 5448090617942336686, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: openSuono
+      value: 
+      objectReference: {fileID: 8300000, guid: 83412a9781d80a24e99bbe63976ad7ab, type: 3}
+    - target: {fileID: 5448090617942336686, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: closeSuono
+      value: 
+      objectReference: {fileID: 8300000, guid: 6ff3de842773622459dd38d5f2ea8b80, type: 3}
     - target: {fileID: 5535351102756096889, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1367038045}
+    - target: {fileID: 5543334576932234789, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.003
+      objectReference: {fileID: 0}
     - target: {fileID: 5543334576937939289, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 

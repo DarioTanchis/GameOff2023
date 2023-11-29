@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DrawerInteractable : Interactable
 {
+    [SerializeField] AudioClip openSuono;
+    [SerializeField] AudioClip closeSuono;
     [SerializeField] Vector3 openPosition;
     [SerializeField] GameObject handle = null;
     [SerializeField] bool locked = false;
@@ -52,9 +54,11 @@ public class DrawerInteractable : Interactable
         if (!locked){
             open = !open;
             if (open){
+                AudioSource.PlayClipAtPoint(openSuono, transform.position);
                 elapsedTime = 0;
             }
             else{
+                AudioSource.PlayClipAtPoint(closeSuono, transform.position);
                 elapsedTime = openingTime;        
             }     
         }
