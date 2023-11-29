@@ -22,7 +22,7 @@ public class InteractionHintAnimation : MonoBehaviour
     {
         if(Time.time - lastSwitchTime > switchTime)
         {
-            Debug.Log("Switch");
+            //Debug.Log("Switch");
             gameObjects[0].SetActive(active);
             gameObjects[1].SetActive(!active);
             lastSwitchTime = Time.time;
