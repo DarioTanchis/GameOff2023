@@ -40,4 +40,8 @@ public class PlayerInteract : MonoBehaviour
     {
         hasKey = v;
     }
+    private void OnDrawGizmos() {
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay(camera.position, camera.forward);
+    }
 }

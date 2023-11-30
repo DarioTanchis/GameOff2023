@@ -7,6 +7,7 @@ public class InitialTasks : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI textMesh;
     [SerializeField] List<GameObject> toGrab;
+    [SerializeField] StairsController stairsController;
     List<GameObject> toInteract = new List<GameObject>();
     bool expectsInteraction = false;
     bool expectsGrab = false;
@@ -60,7 +61,7 @@ public class InitialTasks : MonoBehaviour
             break;
             case 3: Task3();
             break;
-            default: ClearTasks();
+            default: stairsController.openStairs(true);
             break;
         }
 

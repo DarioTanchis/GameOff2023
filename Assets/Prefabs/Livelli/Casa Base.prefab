@@ -5887,6 +5887,10 @@ PrefabInstance:
       propertyPath: m_Shadows.m_Strength
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3946865476155952369, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4387858314950540534, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -6062,6 +6066,10 @@ PrefabInstance:
     - target: {fileID: 9181513348657110839, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 61.288002
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188313246117249905, guid: 6c0459fe52c99754ba9f2870fea602a2, type: 3}
+      propertyPath: m_Convex
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
