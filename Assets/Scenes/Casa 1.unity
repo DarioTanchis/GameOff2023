@@ -4762,6 +4762,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1139047478}
+    - target: {fileID: 5710392643724299286, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_Name
+      value: luce bagno
+      objectReference: {fileID: 0}
     - target: {fileID: 5717224746110666047, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
