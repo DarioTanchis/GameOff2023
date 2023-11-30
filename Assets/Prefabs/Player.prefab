@@ -131,7 +131,7 @@ MonoBehaviour:
   camera: {fileID: 7671840461203396755}
   cc: {fileID: 7129353460126486775}
   gravity: 9.8
-  speed: 5
+  speed: 3
   mouseSpeed: 250
   maxMouseRot: 70
   minMouseRot: -70

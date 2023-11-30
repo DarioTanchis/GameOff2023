@@ -14,6 +14,7 @@ public class Lightswitch : Interactable
 
     public override void Interact(PlayerInteract player)
     {
+        base.Interact(player);
         turnedOn = !turnedOn;
         TurnOnOrOff();
     }
