@@ -6117,6 +6117,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1453905606}
+    - target: {fileID: 6341301779669729475, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_Intensity
+      value: 3.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341301779669729475, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_SpotAngle
+      value: 110
+      objectReference: {fileID: 0}
     - target: {fileID: 6744318457125524445, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.049998
