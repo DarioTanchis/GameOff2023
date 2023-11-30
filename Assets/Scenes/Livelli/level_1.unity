@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1569,19 +1569,19 @@ PrefabInstance:
     - target: {fileID: 1713784697726515682, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 1713784697726515682, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     - target: {fileID: 1880271670482253777, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 1880271670482253777, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     - target: {fileID: 1933919055251232943, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.976
@@ -1645,11 +1645,11 @@ PrefabInstance:
     - target: {fileID: 2016879484697200547, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 2016879484697200547, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     - target: {fileID: 2016879484704005377, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.039
@@ -1701,11 +1701,11 @@ PrefabInstance:
     - target: {fileID: 2725646699055091045, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 2725646699055091045, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     - target: {fileID: 2774222587249583022, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1781,11 +1781,43 @@ PrefabInstance:
     - target: {fileID: 3023101844208591049, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 3023101844208591049, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045019995533606101, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.3970802
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045019995533606101, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.786606
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045019995533606101, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -15.870822
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045019995533606101, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.7071048
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045019995533606101, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.70710886
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045019995533606101, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045019995533606101, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045019995533606101, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -270
+      objectReference: {fileID: 0}
     - target: {fileID: 3177108172961089510, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: stairsController
       value: 
@@ -1889,11 +1921,11 @@ PrefabInstance:
     - target: {fileID: 3727941141991777525, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 3727941141991777525, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     - target: {fileID: 3800705933733270785, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.14496
@@ -2277,23 +2309,27 @@ PrefabInstance:
     - target: {fileID: 4495936927021024149, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 4495936927021024149, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     - target: {fileID: 4537678779231072591, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 4537678779231072591, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     - target: {fileID: 4566235783384171637, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 436224829}
+    - target: {fileID: 4571065362619235154, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4820903258776130970, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.713
@@ -2369,11 +2405,11 @@ PrefabInstance:
     - target: {fileID: 4888989384040618697, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 4888989384040618697, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     - target: {fileID: 5314359166072497941, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.904
@@ -2390,6 +2426,14 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1721555678}
+    - target: {fileID: 5369531079292240084, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: furnitureTextures
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5369531079292240084, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: GlobalOptionsDisplaySaveVar
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5535351102756096889, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2397,11 +2441,11 @@ PrefabInstance:
     - target: {fileID: 5543334576937939289, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 5543334576937939289, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     - target: {fileID: 5543334576938349457, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Range
       value: 5.21
@@ -2673,11 +2717,11 @@ PrefabInstance:
     - target: {fileID: 8887085820594439443, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 8887085820594439443, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     - target: {fileID: 8928259925898208678, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -2693,11 +2737,11 @@ PrefabInstance:
     - target: {fileID: 9136482121070303211, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1062222142}
+      objectReference: {fileID: 0}
     - target: {fileID: 9136482121070303211, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1062222141}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6453014435968031435, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
@@ -2707,22 +2751,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
---- !u!114 &1062222141 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 548259278622965170, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-  m_PrefabInstance: {fileID: 1062222140}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1062222142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 608122e09884d594499e071cd6eed3d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1062222142 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3930488496924480865, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-  m_PrefabInstance: {fileID: 1062222140}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1161459530
 GameObject:
   m_ObjectHideFlags: 0

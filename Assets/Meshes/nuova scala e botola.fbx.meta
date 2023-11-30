@@ -3,7 +3,12 @@ guid: e09a38515f3b8f8498736c4a3b1751d1
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light_woode_floor
+    second: {fileID: 2100000, guid: 06496c49478ec564bbb65e232d65f555, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
