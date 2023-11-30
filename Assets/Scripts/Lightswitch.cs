@@ -6,6 +6,7 @@ public class Lightswitch : Interactable
 {
     [SerializeField] Light[] lights;
     [SerializeField] bool turnedOn;
+    [SerializeField] AudioSource switchSound;   //
 
     private void Start()
     {
@@ -17,6 +18,7 @@ public class Lightswitch : Interactable
         base.Interact(player);
         turnedOn = !turnedOn;
         TurnOnOrOff();
+        switchSound.Play();
     }
 
     void TurnOnOrOff()
@@ -24,6 +26,7 @@ public class Lightswitch : Interactable
         foreach (Light l in lights)
         {
             l.enabled = turnedOn;
+           
         }
     }
 }
