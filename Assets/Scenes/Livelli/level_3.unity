@@ -4144,11 +4144,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5505084224642804152, guid: 2ff2f23658c39f74e9153c643c0de3a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.152
+      value: 9.626
       objectReference: {fileID: 0}
     - target: {fileID: 5505084224642804152, guid: 2ff2f23658c39f74e9153c643c0de3a1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.673
+      value: -10.67
       objectReference: {fileID: 0}
     - target: {fileID: 5505084224642804152, guid: 2ff2f23658c39f74e9153c643c0de3a1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4270,19 +4270,6 @@ PrefabInstance:
     - target: {fileID: 1713784697726515682, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1880271670482253777, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: furnitureTextures
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1880271670482253777, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
-      objectReference: {fileID: 0}
-      objectReference: {fileID: 1355092577}
-    - target: {fileID: 1713784697726515682, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
       objectReference: {fileID: 1355092578}
     - target: {fileID: 1880271670482253777, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
@@ -4307,11 +4294,6 @@ PrefabInstance:
     - target: {fileID: 2016879484697200547, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 0}
-      objectReference: {fileID: 1355092577}
-    - target: {fileID: 2016879484697200547, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
       objectReference: {fileID: 1355092578}
     - target: {fileID: 2041361148358772308, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
@@ -4324,14 +4306,6 @@ PrefabInstance:
     - target: {fileID: 2380650627409487471, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_IsActive
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2725646699055091045, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: furnitureTextures
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2725646699055091045, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 2725646699055091045, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
@@ -4360,11 +4334,6 @@ PrefabInstance:
     - target: {fileID: 3023101844208591049, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 0}
-      objectReference: {fileID: 1355092577}
-    - target: {fileID: 3023101844208591049, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
       objectReference: {fileID: 1355092578}
     - target: {fileID: 3402333490363091606, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
@@ -4378,11 +4347,6 @@ PrefabInstance:
       propertyPath: furnitureTextures
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3727941141991777525, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
-      objectReference: {fileID: 0}
-      objectReference: {fileID: 1355092577}
     - target: {fileID: 3727941141991777525, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
@@ -4458,19 +4422,6 @@ PrefabInstance:
     - target: {fileID: 4495936927021024149, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4537678779231072591, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: furnitureTextures
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4537678779231072591, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
-      objectReference: {fileID: 0}
-      objectReference: {fileID: 1355092577}
-    - target: {fileID: 4495936927021024149, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
       objectReference: {fileID: 1355092578}
     - target: {fileID: 4537678779231072591, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
@@ -4491,11 +4442,6 @@ PrefabInstance:
     - target: {fileID: 4888989384040618697, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 0}
-      objectReference: {fileID: 1355092577}
-    - target: {fileID: 4888989384040618697, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
       objectReference: {fileID: 1355092578}
     - target: {fileID: 4903516294778555154, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
@@ -4512,11 +4458,6 @@ PrefabInstance:
     - target: {fileID: 5369531079292240084, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 0}
-      objectReference: {fileID: 1355092577}
-    - target: {fileID: 5369531079292240084, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
       objectReference: {fileID: 1355092578}
     - target: {fileID: 5535351102756096889, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
@@ -4526,11 +4467,6 @@ PrefabInstance:
       propertyPath: furnitureTextures
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 5543334576937939289, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
-      objectReference: {fileID: 0}
-      objectReference: {fileID: 1355092577}
     - target: {fileID: 5543334576937939289, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
@@ -4646,11 +4582,6 @@ PrefabInstance:
     - target: {fileID: 8887085820594439443, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 0}
-      objectReference: {fileID: 1355092577}
-    - target: {fileID: 8887085820594439443, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
       objectReference: {fileID: 1355092578}
     - target: {fileID: 8928259925898208678, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
@@ -4668,11 +4599,6 @@ PrefabInstance:
       propertyPath: furnitureTextures
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 9136482121070303211, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-      propertyPath: GlobalOptionsDisplaySaveVar
-      value: 
-      objectReference: {fileID: 0}
-      objectReference: {fileID: 1355092577}
     - target: {fileID: 9136482121070303211, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
