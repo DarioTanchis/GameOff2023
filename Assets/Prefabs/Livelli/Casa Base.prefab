@@ -2149,7 +2149,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 13.3
-  m_Range: 2.77
+  m_Range: 3.37
   m_SpotAngle: 92.7
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -6678,7 +6678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f553d8621d835d54cb0ff304d0f33976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flickerDuration: 0.01
+  flickerDuration: 0.15
   flickerColor: {r: 1, g: 0, b: 0, a: 1}
   light: {fileID: 6893118629562648080}
 --- !u!4 &2086258691951791826 stripped
