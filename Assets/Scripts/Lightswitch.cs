@@ -18,7 +18,7 @@ public class Lightswitch : Interactable
         base.Interact(player);
         turnedOn = !turnedOn;
         TurnOnOrOff();
-        switchSound.Play();
+        switchSound.Play();                     //
     }
 
     void TurnOnOrOff()
