@@ -19,6 +19,7 @@ public class PlayerInteract : MonoBehaviour
             UI_Controller.instance?.EnableInteractionHint(false);
         }
 
+        /*
         RaycastHit[] hits;
         hits = Physics.RaycastAll(camera.position, camera.forward, raycastDistance);
 
@@ -36,10 +37,9 @@ public class PlayerInteract : MonoBehaviour
 
                 wasPointingAtInteractable = true;
             }
-        }
+        }*/
 
-        /*
-        if (Physics.RaycastAll(camera.position, camera.forward, out RaycastHit hit, raycastDistance) && hit.collider.TryGetComponent(out Interactable interactable))
+        if (Physics.Raycast(camera.position, camera.forward, out RaycastHit hit, raycastDistance) && hit.collider.TryGetComponent(out Interactable interactable))
         {
             Debug.Log(hit);
             UI_Controller.instance?.EnableInteractionHint(true);
@@ -51,7 +51,7 @@ public class PlayerInteract : MonoBehaviour
 
             wasPointingAtInteractable = true;
         }
-        */
+        
     }
 
     public bool getHasKey()

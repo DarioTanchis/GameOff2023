@@ -1546,6 +1546,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1997589534}
+    - target: {fileID: 6984387747400436205, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: suonoPorta
+      value: 
+      objectReference: {fileID: 263155040}
     - target: {fileID: 7020606216377200532, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1760,6 +1764,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!82 &263155040 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2457248314332168413, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+  m_PrefabInstance: {fileID: 263155036}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &326922257
 PrefabInstance:
   m_ObjectHideFlags: 0
