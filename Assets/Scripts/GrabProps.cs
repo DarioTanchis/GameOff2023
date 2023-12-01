@@ -55,7 +55,7 @@ public class GrabProps : MonoBehaviour
             hintEnabled = false;
         }
 
-        if (Input.GetButtonDown("Fire1") && grabbed)
+        if (Input.GetButtonDown("Fire1") && grabbed && grabbed.name != "Pole")
         {
             grabbed.transform.parent = null;
             grabbedRigidbody.isKinematic = false;

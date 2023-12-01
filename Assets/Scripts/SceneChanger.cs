@@ -18,7 +18,7 @@ public class SceneChanger : MonoBehaviour
 
     IEnumerator sceneAfterTime(){
         yield return new WaitForSeconds(1f);
-        UI_Controller.instance.AddDialogue(new DialogueObject("AAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHH", 3f));
+        //UI_Controller.instance.AddDialogue(new DialogueObject("AAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHH", 3f));
         animator.SetBool("FadeOut", true);
         yield return new WaitForSeconds(5);
         animator.SetBool("FadeOut", false);
