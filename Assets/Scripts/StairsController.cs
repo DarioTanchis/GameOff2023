@@ -25,6 +25,7 @@ public class StairsController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Player in stairs trigger");
         if (other.CompareTag("Player")){
             blockStairsCollider.enabled = true;
             animator.SetBool("Aperta", false);
