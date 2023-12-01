@@ -2037,7 +2037,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9529412, g: 0.8235294, b: 0.65882355, a: 1}
   m_Intensity: 3.2
   m_Range: 4.741564
   m_SpotAngle: 92.66249
@@ -2565,7 +2565,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9529412, g: 0.8235294, b: 0.65882355, a: 1}
   m_Intensity: 3.54
   m_Range: 10
   m_SpotAngle: 90.2
@@ -7363,7 +7363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lights:
   - {fileID: 4888989384041228859}
-  turnedOn: 0
+  turnedOn: 1
   switchSound: {fileID: 7497010441281019644}
 --- !u!82 &7497010441281019644
 AudioSource:
