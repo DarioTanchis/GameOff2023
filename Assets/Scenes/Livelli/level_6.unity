@@ -4645,7 +4645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mannequins: {fileID: 1726026752}
   source: {fileID: 1467241937}
-  timeToWait: 32
+  timeToWait: 34
 --- !u!43 &1490206257
 Mesh:
   m_ObjectHideFlags: 0
