@@ -1093,80 +1093,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &716821137
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 716821139}
-  - component: {fileID: 716821138}
-  - component: {fileID: 716821140}
-  m_Layer: 0
-  m_Name: Dialogue trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &716821138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716821137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3bd8b36bf8ff8674f96116d30762f09d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - text: Whaaattttttttttttt!?!?!?!?
-    timeToNextLine: 3
-  - text: Why am I here again!?
-    timeToNextLine: 3
-  - text: I can't go back! I need to find a way out!
-    timeToNextLine: 5
-  playEveryTime: 0
---- !u!4 &716821139
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716821137}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.70710695, y: -0, z: -0, w: -0.7071067}
-  m_LocalPosition: {x: 5.793, y: 4.159, z: -10.99143}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &716821140
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 716821137}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2.135334, y: 2.0262377, z: 1.7554728}
-  m_Center: {x: -0.430871, y: 0.27314925, z: -0.3777365}
 --- !u!43 &749719302
 Mesh:
   m_ObjectHideFlags: 0
@@ -3243,7 +3169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2788224985617373467, guid: 3176e6d3efcc1ab49954d07e826d4b45, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5132760383816078805, guid: 3176e6d3efcc1ab49954d07e826d4b45, type: 3}
       propertyPath: m_Pivot.x
@@ -3912,7 +3838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 169938240431091388, guid: cb50e8cd57c2ab94ab8f71f30ee5264f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5825057103730261061, guid: cb50e8cd57c2ab94ab8f71f30ee5264f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5362,4 +5288,3 @@ SceneRoots:
   - {fileID: 1161459532}
   - {fileID: 1579534493}
   - {fileID: 1839705163}
-  - {fileID: 716821139}

@@ -35,8 +35,6 @@ public class PlayerInteract : MonoBehaviour
                 }
 
                 wasPointingAtInteractable = true;
-
-                break;
             }
         }
 
