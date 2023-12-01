@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Livelli/level_6.unity
     guid: 13eb4ae3cab2d5f47bde891f43e6f9ab
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: ba7196567d79fdb47941a921f6bbea3a
   m_configObjects: {}
