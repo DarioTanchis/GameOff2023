@@ -25,7 +25,6 @@ public class StairsController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other);
         if (other.CompareTag("Player")){
             blockStairsCollider.enabled = true;
             animator.SetBool("Aperta", false);
@@ -47,8 +46,6 @@ public class StairsController : MonoBehaviour
 
     IEnumerator CheckCloseAnimationEnd()
     {
-
-
         while(!animator.GetCurrentAnimatorStateInfo(0).IsName("Chiusa"))
         {
             yield return null;
@@ -56,11 +53,15 @@ public class StairsController : MonoBehaviour
 
         float startTime = Time.time;
 
+        Debug.Log("Si sta chiudendo");
+
         while (Time.time - startTime < animator.GetCurrentAnimatorClipInfo(0).Length)
         {
             yield return null;
         }
 
-        blockStairsCollider.enabled = false;
+        Debug.Log("Si è chiusa");
+
+        blockStairsCollider.gameObject.SetActive(false);
     }
 }

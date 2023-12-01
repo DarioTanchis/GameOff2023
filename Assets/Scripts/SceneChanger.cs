@@ -13,12 +13,14 @@ public class SceneChanger : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        animator.SetBool("FadeOut", true);
         StartCoroutine(sceneAfterTime());
     }
 
     IEnumerator sceneAfterTime(){
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(1f);
+        UI_Controller.instance.AddDialogue(new DialogueObject("AAAAAAAAAAAAAHHHHHHHHHHHHHHHHHHHHHHHH", 3f));
+        animator.SetBool("FadeOut", true);
+        yield return new WaitForSeconds(5);
         animator.SetBool("FadeOut", false);
         loadScene(); 
     }

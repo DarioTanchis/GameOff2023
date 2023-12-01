@@ -91,4 +91,12 @@ public class DialogueObject
 {
     public string text;
     public float timeToNextLine;
+
+    public DialogueObject() { }
+
+    public DialogueObject(string text, float timeToNextLine)
+    {
+        this.text = text;
+        this.timeToNextLine = timeToNextLine;
+    }
 }
