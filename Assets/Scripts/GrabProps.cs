@@ -66,4 +66,11 @@ public class GrabProps : MonoBehaviour
 
         }
     }
+
+    public void RemoveGrabbed()
+    {
+        Destroy(grabbed);
+        grabbed = null;
+        grabbedRigidbody = null;
+    }
 }

@@ -19,11 +19,9 @@ public class DoorInteractable : Interactable
     float openingTime = 0.5f;
 
     void Start(){
-        if (TryGetComponent<AudioSource>(out AudioSource audioSource) && locked) //Controlla se ha l'audio :)
-        {
+        if(suonoPorta)
             sp = suonoPorta.clip;
-        }
-        
+
         closedRotation = transform.localEulerAngles.z;
         if (inverted){
             rot = -rot;
@@ -45,10 +43,10 @@ public class DoorInteractable : Interactable
     // Does something, called when "interact" is pressed
     public override void Interact(PlayerInteract player){
         base.Interact(player);
-        if (TryGetComponent<AudioSource>(out AudioSource audioSource) && locked) //Controlla se ha l'audio :)
+        if (suonoPorta != null && locked) //Controlla se ha l'audio :)
         {
-                audioSource.clip = lockedSound;
-                audioSource.Play(); //suono porta lockata
+                suonoPorta.clip = lockedSound;
+                suonoPorta.Play(); //suono porta lockata
         }
         if (locked && !player.getHasKey()){
             List<DialogueObject> dialogues = new List<DialogueObject>();
@@ -64,10 +62,11 @@ public class DoorInteractable : Interactable
             player.setHasKey(false);
         }
         if (!locked){
-            if (TryGetComponent<AudioSource>(out AudioSource audioSource1)) //Controlla se ha l'audio :)
+            if (suonoPorta && sp) //Controlla se ha l'audio :)
             {
-                audioSource1.clip = sp;
-                audioSource1.Play(); //suono apertura porta
+                suonoPorta.clip = sp;
+                suonoPorta.pitch = 1 + Random.Range(-.2f, .2f);
+                suonoPorta.Play(); //suono apertura porta
             }
             open = !open;
             if (open)

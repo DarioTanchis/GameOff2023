@@ -8,6 +8,7 @@ public class PlayerInteract : MonoBehaviour
     [SerializeField] float raycastDistance = 3f;
     bool hasKey = false;
     bool wasPointingAtInteractable;
+    public bool hasStairThing = false;
 
     // Update is called once per frame
     void Update()
