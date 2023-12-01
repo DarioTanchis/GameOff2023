@@ -5616,15 +5616,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976233789695126315, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: flickerColor.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1976233789695126315, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: flickerColor.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1976233789695126315, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: flickerColor.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1976946177874056110, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
