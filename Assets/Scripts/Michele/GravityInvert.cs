@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class GravityInvert : MonoBehaviour
 {
+    [SerializeField] bool inverted = true;
+
     // Start is called before the first frame update
     void Start()
     {
-        Physics.gravity = new Vector3(0, 9.8f, 0);
+        if(inverted)
+            Physics.gravity = new Vector3(0, 9.8f, 0);
+        else
+            Physics.gravity = new Vector3(0,-9.8f, 0);
     }
 }
