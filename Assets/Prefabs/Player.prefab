@@ -111,8 +111,8 @@ CharacterController:
   serializedVersion: 3
   m_Height: 1.5
   m_Radius: 0.4
-  m_SlopeLimit: 50
-  m_StepOffset: 0.3
+  m_SlopeLimit: 60
+  m_StepOffset: 0.35
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
@@ -165,6 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 7671840461203396755}
   raycastDistance: 3
+  hasStairThing: 0
 --- !u!114 &10064296275517316
 MonoBehaviour:
   m_ObjectHideFlags: 0
