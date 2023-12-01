@@ -1745,7 +1745,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ce04f18bd35c944a784c5dc1109940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  suonoPorta: {fileID: 0}
+  lockedSound: {fileID: 0}
   rotationAxis: {x: 0, y: 0, z: 1}
+  locked: 0
   inverted: 0
 --- !u!1 &367581805887225655 stripped
 GameObject:
@@ -1858,7 +1861,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ce04f18bd35c944a784c5dc1109940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  suonoPorta: {fileID: 0}
+  lockedSound: {fileID: 0}
   rotationAxis: {x: 0, y: 1, z: 0}
+  locked: 0
   inverted: 1
 --- !u!1 &4363495357138234368 stripped
 GameObject:
@@ -1898,7 +1904,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ce04f18bd35c944a784c5dc1109940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  suonoPorta: {fileID: 0}
+  lockedSound: {fileID: 0}
   rotationAxis: {x: 0, y: 0, z: 1}
+  locked: 0
   inverted: 1
 --- !u!1 &6674727633767698251 stripped
 GameObject:
@@ -1938,7 +1947,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08ce04f18bd35c944a784c5dc1109940, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  suonoPorta: {fileID: 0}
+  lockedSound: {fileID: 0}
   rotationAxis: {x: 0, y: 0, z: 1}
+  locked: 0
   inverted: 0
 --- !u!1001 &1224744587576263097
 PrefabInstance:
@@ -2167,9 +2179,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ed8e61fa60ad643b124b1e3e8043ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openSuono: {fileID: 8300000, guid: 60b14f32d4700f840b76c3340754dd8f, type: 3}
+  closeSuono: {fileID: 8300000, guid: 59528a2c0c35ba44ba1fee4cdffdcde0, type: 3}
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 1857220619740904143}
-  locked: 1
+  locked: 0
 --- !u!1 &1857220619740708209 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 118222, guid: 65d0f065a3e2ad547b9cc3844a9937d7, type: 3}
@@ -2187,6 +2201,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ed8e61fa60ad643b124b1e3e8043ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openSuono: {fileID: 8300000, guid: 60b14f32d4700f840b76c3340754dd8f, type: 3}
+  closeSuono: {fileID: 8300000, guid: 59528a2c0c35ba44ba1fee4cdffdcde0, type: 3}
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 1857220619740789933}
   locked: 0
@@ -2714,6 +2730,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ed8e61fa60ad643b124b1e3e8043ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openSuono: {fileID: 8300000, guid: 60b14f32d4700f840b76c3340754dd8f, type: 3}
+  closeSuono: {fileID: 8300000, guid: 59528a2c0c35ba44ba1fee4cdffdcde0, type: 3}
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 5690673442783087503}
   locked: 0
@@ -2734,6 +2752,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ed8e61fa60ad643b124b1e3e8043ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openSuono: {fileID: 8300000, guid: 60b14f32d4700f840b76c3340754dd8f, type: 3}
+  closeSuono: {fileID: 8300000, guid: 59528a2c0c35ba44ba1fee4cdffdcde0, type: 3}
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 5690673442782973421}
   locked: 0
@@ -3140,6 +3160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ed8e61fa60ad643b124b1e3e8043ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openSuono: {fileID: 0}
+  closeSuono: {fileID: 0}
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 6442861698525403173}
   locked: 0
@@ -3186,6 +3208,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17ed8e61fa60ad643b124b1e3e8043ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openSuono: {fileID: 0}
+  closeSuono: {fileID: 0}
   openPosition: {x: 0, y: 0, z: 0.3}
   handle: {fileID: 6442861698525411179}
   locked: 0
