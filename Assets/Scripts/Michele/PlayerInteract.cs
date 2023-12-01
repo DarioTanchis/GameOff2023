@@ -19,8 +19,31 @@ public class PlayerInteract : MonoBehaviour
             UI_Controller.instance?.EnableInteractionHint(false);
         }
 
-        if (Physics.Raycast(camera.position, camera.forward, out RaycastHit hit, raycastDistance) && hit.collider.TryGetComponent(out Interactable interactable))
+        RaycastHit[] hits;
+        hits = Physics.RaycastAll(camera.position, camera.forward, raycastDistance);
+
+        foreach(RaycastHit hit in hits)
         {
+            if(hit.collider.TryGetComponent(out Interactable interactable))
+            {
+                UI_Controller.instance?.EnableInteractionHint(true);
+                UI_Controller.instance?.SetInteractionHintPosition(hit.point);
+
+                if (Input.GetButtonDown("Interact"))
+                {
+                    interactable.Interact(this);
+                }
+
+                wasPointingAtInteractable = true;
+
+                break;
+            }
+        }
+
+        /*
+        if (Physics.RaycastAll(camera.position, camera.forward, out RaycastHit hit, raycastDistance) && hit.collider.TryGetComponent(out Interactable interactable))
+        {
+            Debug.Log(hit);
             UI_Controller.instance?.EnableInteractionHint(true);
             UI_Controller.instance?.SetInteractionHintPosition(hit.point);
 
@@ -30,6 +53,7 @@ public class PlayerInteract : MonoBehaviour
 
             wasPointingAtInteractable = true;
         }
+        */
     }
 
     public bool getHasKey()
