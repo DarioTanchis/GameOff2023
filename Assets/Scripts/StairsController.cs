@@ -53,14 +53,10 @@ public class StairsController : MonoBehaviour
 
         float startTime = Time.time;
 
-        Debug.Log("Si sta chiudendo");
-
         while (Time.time - startTime < animator.GetCurrentAnimatorClipInfo(0).Length)
         {
             yield return null;
         }
-
-        Debug.Log("Si è chiusa");
 
         blockStairsCollider.gameObject.SetActive(false);
     }

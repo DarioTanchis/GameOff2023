@@ -5,16 +5,13 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     int currentSceneIndex = 0;
+    [SerializeField] DialogueObject[] startingDialogues;
+    public static GameManager gameManager;
+
 
     // Start is called before the first frame update
     void Start()
     {
-    
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        UI_Controller.instance.AddDialogues(startingDialogues);
     }
 }
