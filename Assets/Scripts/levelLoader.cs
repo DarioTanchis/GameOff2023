@@ -13,6 +13,6 @@ public class levelLoader : MonoBehaviour
             SceneManager.LoadScene(l, LoadSceneMode.Additive);
         }
 
-        Destroy(gameObject);    //
+        Destroy(gameObject); 
     }
 }

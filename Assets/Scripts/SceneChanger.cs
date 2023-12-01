@@ -9,6 +9,7 @@ public class SceneChanger : MonoBehaviour
     [SerializeField] Animator animator;
     void loadScene(){
         SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("level_1"));
     }
 
     private void OnTriggerEnter(Collider other) {
