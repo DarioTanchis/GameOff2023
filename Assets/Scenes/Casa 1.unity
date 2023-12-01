@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.1882762, g: 0.19113821, b: 0.19109797, a: 1}
+  m_IndirectSpecularColor: {r: 0.18827617, g: 0.19113809, b: 0.19109794, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5200,6 +5200,10 @@ PrefabInstance:
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
       objectReference: {fileID: 1704591854}
+    - target: {fileID: 3248086580671788193, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3284187042234052732, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5212,6 +5216,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 902124626}
+    - target: {fileID: 3584033807362249745, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: be527fcc8cf15a14bb1375acc053f3a9, type: 2}
     - target: {fileID: 3727941141991777525, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
@@ -5476,6 +5484,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1628323467}
+    - target: {fileID: 8425728211225135721, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
+      propertyPath: stairController
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 8543979177300669173, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
