@@ -2762,22 +2762,6 @@ AudioSource:
   m_CorrespondingSourceObject: {fileID: 3657169900324788038, guid: 129c1231e7f135d408ce7968012adfc7, type: 3}
   m_PrefabInstance: {fileID: 187585129}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1355092577 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3930488496924480865, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-  m_PrefabInstance: {fileID: 1885935906}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1355092578 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 548259278622965170, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
-  m_PrefabInstance: {fileID: 1885935906}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1355092577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 608122e09884d594499e071cd6eed3d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1360271445
 GameObject:
   m_ObjectHideFlags: 0
@@ -4109,7 +4093,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4768,19 +4752,19 @@ PrefabInstance:
     - target: {fileID: 1713784697726515682, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 1713784697726515682, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 1880271670482253777, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 1880271670482253777, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 1976233789695126315, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: flickerColor.b
       value: 1
@@ -4804,11 +4788,11 @@ PrefabInstance:
     - target: {fileID: 2016879484697200547, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 2016879484697200547, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 2041361148358772308, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4824,11 +4808,11 @@ PrefabInstance:
     - target: {fileID: 2725646699055091045, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 2725646699055091045, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 2774222587249583022, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4844,11 +4828,11 @@ PrefabInstance:
     - target: {fileID: 3023101844208591049, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 3023101844208591049, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 3402333490363091606, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4860,11 +4844,11 @@ PrefabInstance:
     - target: {fileID: 3727941141991777525, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 3727941141991777525, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 3800705933733270785, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.14496
@@ -4932,19 +4916,19 @@ PrefabInstance:
     - target: {fileID: 4495936927021024149, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 4495936927021024149, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 4537678779231072591, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 4537678779231072591, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 4566235783384171637, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4952,11 +4936,11 @@ PrefabInstance:
     - target: {fileID: 4888989384040618697, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 4888989384040618697, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 4903516294778555154, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4968,11 +4952,11 @@ PrefabInstance:
     - target: {fileID: 5369531079292240084, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 5369531079292240084, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 5535351102756096889, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -4980,11 +4964,11 @@ PrefabInstance:
     - target: {fileID: 5543334576937939289, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 5543334576937939289, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 5709276958837242826, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -5104,11 +5088,11 @@ PrefabInstance:
     - target: {fileID: 8887085820594439443, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 8887085820594439443, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     - target: {fileID: 8928259925898208678, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -5124,11 +5108,11 @@ PrefabInstance:
     - target: {fileID: 9136482121070303211, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: furnitureTextures
       value: 
-      objectReference: {fileID: 1355092577}
+      objectReference: {fileID: 0}
     - target: {fileID: 9136482121070303211, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
       propertyPath: GlobalOptionsDisplaySaveVar
       value: 
-      objectReference: {fileID: 1355092578}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4174407012252752112, guid: d5d31bb5d4eb8264188b000a2dc36a66, type: 3}
